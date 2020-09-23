@@ -109,6 +109,80 @@ h1 span {
 
 
 
+
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    margin: 25px;
+    padding: 25px;
+  }
+
+  .game-cell {
+    height: 175px;
+    width: 175px;
+    padding-bottom: 20%;
+  }
+
+  .x::after {
+    font-size: 100px;
+  }
+
+  .o::after {
+    font-size: 125px;
+  }
+
+  .game-grid {
+      border: none;
+  }
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+.container {
+    margin: 25px;
+    padding: 25px;
+    margin-bottom: 70%;
+  }
+
+
+  .x::after {
+    font-size: 50px;
+  }
+
+  .o::after {
+    font-size:50px;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+.container {
+    margin: 25px;
+    padding: 25px;
+    margin-bottom: 70%;
+  }
+
+.game-cell{ 
+   /* grid-gap: 10px;
+margin-top: 40px; */
+ width: 60px;
+ height: 60px;
+}
+
+  .x::after {
+    font-size: 50px;
+  }
+
+  .o::after {
+    font-size:50px;
+  }
+}
+
+
 @media only screen and (max-width: 540px) {
   .container {
     margin: 25px;
@@ -128,3 +202,58 @@ h1 span {
     font-size: 125px;
   }
 }
+
+
+
+@media only screen and (max-width: 411px) {
+  .container {
+    margin: 25px;
+    padding: 25px;
+     margin-bottom: 30%;
+  
+  }
+
+  .game-cell {
+    height: 100px;
+    width: 100px;
+  }
+
+  .x::after {
+    font-size: 100px;
+  }
+
+  .o::after {
+    font-size: 125px;
+  }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    margin-bottom: 90%;
+  }
+
+  .game-cell {
+    height: 60px;
+    width: 60px;
+  }
+
+  .game-grid{
+   grid-gap: 10px;
+    margin-top: 40px;
+
+  }
+
+  .x::after {
+    font-size: 50px;
+  }
+
+  .o::after {
+    font-size:50px;
+  }
+}
+
